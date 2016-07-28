@@ -4,7 +4,7 @@ class Admin::ApplicationController < ApplicationController
   end
 
   private
-
+    
   def authorize_admin!
     authenticate_user!
 
